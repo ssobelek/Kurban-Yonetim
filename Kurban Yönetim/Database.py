@@ -32,7 +32,6 @@ def kurban_no_guncelle(eski,yeni):
 def isim_guncelle(eski,yeni):
     cursor.execute("UPDATE kurban set Hissedarlar = ? where Hissedarlar = ? ",(yeni,eski))
     con.commit()
-<<<<<<< HEAD
 
 print(
 """
