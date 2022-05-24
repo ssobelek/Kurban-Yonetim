@@ -94,17 +94,3 @@ while True:
         print("Lütfen komutu doğru girdiğinize emin olun.")
         continue
     con.close()
-=======
-tablo()
-Hissedarlar = input("İsminiz: ")
-Kurbankilo = int(input("Kurbanın kilosu: "))
-Hissesayisi = int(input("Hisse sayısı: "))
-Kurbanno = int(input("Kurban numarası: "))
-kurbanekle(Hissedarlar,Kurbankilo,Hissesayisi,Kurbanno)
-hissedarekle()
-hissedarsil()
-kurban_no_guncelle(3,5)
-isim_guncelle()
-verilerial()
-con.close()
->>>>>>> 9ee510ff96e3f9cbeec88fead67b07d002cf44b0
