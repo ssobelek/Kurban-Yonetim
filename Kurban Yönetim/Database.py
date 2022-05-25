@@ -84,7 +84,7 @@ while True:
         eski = input("Değiştirmek istediğiniz kurbanın numarasını giriniz: ")
         yeni = input("Yeni numarayı giriniz: ")
         kurban_no_guncelle(eski,yeni)
-        print("'{}' ismi '{}' olarak güncellendi".format(eski, yeni))
+        print("'{}' numarası '{}' olarak güncellendi".format(eski, yeni))
         continue
     elif s == "bilgilerigör":
         print(verilerial())
