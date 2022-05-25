@@ -36,7 +36,7 @@ def isim_guncelle(eski,yeni):
 print(
 """
 ******************************************************************************************************
-                    Kurban Yönetim Sistemine Hoşgeldiniz...  
+                           Kurban Yönetim Sistemine Hoşgeldiniz...  
                                           
                                 :YAPABİLECEĞİNİZ İŞLEMLER:                                          
 
@@ -46,7 +46,7 @@ print(
 
 *hissedarsil = Adını ve soyadını yazdıgınız hissedarın tüm bilgilerini siler.
 
-*kurbanno = Önce eski sonra yeni vermek istediğiniz kurban numarasını yazın ve değiştirmiş olun.
+*kurbanno = Önce eski sonra yeni vermek istediğiniz kurban numarasını yazın ve değiştirin.
 
 *isimdeğiş = Önce değiştirmek istediğiniz sonra koymak istediğiniz ismi yazın ve değiştirin.
 
