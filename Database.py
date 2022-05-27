@@ -52,6 +52,7 @@ print(
     *kurbanno = Önce eski sonra yeni vermek istediğiniz kurban numarasını yazın ve değiştirin.
     *isimdeğiş = Önce değiştirmek istediğiniz sonra koymak istediğiniz ismi yazın ve değiştirin.
     *bilgilerigör = Bütün bilgileri gösterir.
+    *islemler = Bu yazıyı tekrar görmek için kullanınız.
     ******************************************************************************************************
     """)
 while True:
@@ -61,6 +62,23 @@ while True:
         print("\nSistem kapatılıyor...\n\n")
         break
 
+    elif s == "islemler":
+        print(
+            """
+            ******************************************************************************************************
+                                       Kurban Yönetim Sistemine Hoşgeldiniz...  
+
+                                            :YAPABİLECEĞİNİZ İŞLEMLER:                                          
+            * q == Programı kapatmak için kullanınız.
+            *kurbanekle = Hisse sahipleri, Kurbanın kilosu, Pay sayısı, Kurban numarasını içerir.
+            *hissedarsil = Adını ve soyadını yazdıgınız hissedarın tüm bilgilerini siler.
+            *kurbanno = Önce eski sonra yeni vermek istediğiniz kurban numarasını yazın ve değiştirin.
+            *isimdeğiş = Önce değiştirmek istediğiniz sonra koymak istediğiniz ismi yazın ve değiştirin.
+            *bilgilerigör = Bütün bilgileri gösterir.
+            ******************************************************************************************************
+            """)
+        continue
+
     elif s == "hissedarsil":
         hissedar = input("Silinecek isimi tam yazınız: ")
         hissedarsil(hissedar)
@@ -68,7 +86,7 @@ while True:
         continue
 
     elif s == "kurbanekle":
-        Hissedarlar = input("İsminiz: ")
+        Hissedarlar = input("Hissedar ismi: ")
         Kurbankilo = int(input("Kurbanın kilosu: "))
         Hissesayisi = int(input("Hisse sayısı: "))
         Kurbanno = int(input("Kurban numarası: "))
@@ -81,6 +99,7 @@ while True:
         yeni = input("Yeni ismi giriniz: ")
         isim_guncelle(eski, yeni)
         print("'{}' ismi '{}' olarak güncellendi".format(eski, yeni))
+        continue
 
     elif s == "kurbanno":
         eski = input("Değiştirmek istediğiniz kurbanın numarasını giriniz: ")
@@ -94,4 +113,4 @@ while True:
     else:
         print("Lütfen komutu doğru girdiğinize emin olun.")
         continue
-    con.close()
+con.close()
